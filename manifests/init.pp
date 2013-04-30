@@ -55,7 +55,7 @@ class azure(
 
   file { '/etc/waagent.conf':
     ensure  => present,
-    source  => template('waagent.conf.erb'),
+    content => template('azure/waagent.conf.erb'),
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
