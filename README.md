@@ -1,9 +1,9 @@
 # Puppet Labs Azure
 
 This is the Puppet Labs Azure module. The Azure module installs and
-configures the Windows Azure Linux agent.
+configures the Microsoft Azure Linux agent.
 
-It assumes you can the Windows Azure Linux package, `walinuxagent`,
+It assumes you have the Windows Azure Linux package, `walinuxagent`,
 available in a local repository to be installed.
 
 Usage
