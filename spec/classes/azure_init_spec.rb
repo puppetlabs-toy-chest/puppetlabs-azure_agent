@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'azure', :type => :class do
+describe 'azure' do
 
-  context 'setting all params' do
+ context 'setting all params' do
     let(:params) { {
       :provisioning               => 'y',
       :delete_root_password       => 'y',
@@ -17,13 +17,13 @@ describe 'azure', :type => :class do
       :verbose_logs               => 'n'
     } }
 
-    it { should contain_package('waagentlinux').with_ensure('present') }
-    it { should contain_file('/etc/waagent.conf').with_ensure('present').with_require('Package[waagentlinux]') }
-    it { should contain_service('waagentlinux').with(
+    it { should contain_class 'azure' }
+    it { should contain_package('walinuxagent').with_ensure('present') }
+    it { should contain_file('/etc/waagent.conf').with_ensure('present').with_require('Package[walinuxagent]') }
+    it { should contain_service('walinuxagent').with(
       'ensure'      => 'running',
       'enable'      => true,
       'hasrestart'  => true
     ) }
-
   end
 end
