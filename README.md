@@ -6,6 +6,8 @@ configures the Microsoft Azure Linux agent.
 It assumes you have the Windows Azure Linux package, `walinuxagent`,
 available in a local repository to be installed.
 
+[![Build Status](https://travis-ci.org/puppetlabs/puppetlabs-azure.png)](https://travis-ci.org/puppetlabs/puppetlabs-azure)
+
 Usage
 -----
 
