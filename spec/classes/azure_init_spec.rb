@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'azure' do
+describe 'azure', :type => 'class' do
 
  context 'setting all params' do
     let(:params) { {
