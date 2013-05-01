@@ -19,7 +19,12 @@ describe 'azure' do
 
     it { should contain_class 'azure' }
     it { should contain_package('walinuxagent').with_ensure('present') }
-    it { should contain_file('/etc/waagent.conf').with_ensure('present').with_require('Package[walinuxagent]') }
+    it { should contain_file('/etc/waagent.conf').with_require('Package[walinuxagent]').with(
+      'ensure'      => 'present',
+      'owner'       => 'root',
+      'group'       => 'root',
+      'mode'        => '0644'
+    ) }
     it { should contain_service('walinuxagent').with(
       'ensure'      => 'running',
       'enable'      => true,
