@@ -1,5 +1,5 @@
 name    'puppetlabs-azure'
-version '0.0.1'
+version '0.0.2'
 source 'https://github.com/puppetlabs/puppetlabs-azure'
 author 'puppetlabs'
 license 'Apache License, Version 2.0'
