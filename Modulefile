@@ -1,8 +1,0 @@
-name    'puppetlabs-azure'
-version '0.0.3'
-source 'https://github.com/puppetlabs/puppetlabs-azure'
-author 'puppetlabs'
-license 'Apache License, Version 2.0'
-summary 'The Azure module installs and configures the Windows Azure Linux agent.'
-description 'The Azure module installs and configures the Windows Azure Linux agent.'
-project_page 'https://github.com/puppetlabs/puppetlabs-azure'
