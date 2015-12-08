@@ -1,0 +1,13 @@
+{
+  "name": "puppetlabs-azure",
+  "version": "0.0.4",
+  "author": "Puppet Labs",
+  "summary": "The Azure module installs and configures the Windows Azure Linux agent.  Note that this module has now moved to https://forge.puppetlabs.com/puppetlabs/azure_agent",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-azure_agent",
+  "project_page": "https://forge.puppetlabs.com/puppetlabs/azure",
+  "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
+  "operatingsystem_support": [],
+  "requirements": [],
+  "dependencies": []
+}
