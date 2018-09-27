@@ -28,7 +28,7 @@ Configurable options (with their defaults) are:
     $resource_disk_filesystem   = 'ext4'
     $resource_disk_mountpoint   = '/mnt/resource'
     $resource_disk_swap         = 'y'
-    $resource_disk_swap_size    = '4096'
+    $resource_disk_swap_size    = 4096
     $verbose_logs               = 'n'
 
 The module also adds some Azure facts. The code for which is modified

@@ -1,0 +1,15 @@
+---
+azure_agent::package_name: 'WALinuxAgent'
+azure_agent::service_name: 'waagent'
+azure_agent::provisioning: 'y'
+azure_agent::delete_root_password: 'y'
+azure_agent::regenerate_ssh_key: 'y'
+azure_agent::ssh_key_type: 'rsa'
+azure_agent::monitor_hostname: 'y'
+azure_agent::resource_disk_format: 'y'
+azure_agent::resource_disk_filesystem: 'ext4'
+azure_agent::resource_disk_mountpoint: '/mnt/resource'
+azure_agent::resource_disk_swap: 'y'
+azure_agent::resource_disk_swap_size: 4096
+azure_agent::verbose_logs: 'n'
+...

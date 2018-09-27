@@ -1,0 +1,4 @@
+---
+azure_agent::package_name: 'walinuxagent'
+azure_agent::service_name: 'walinuxagent'
+...
